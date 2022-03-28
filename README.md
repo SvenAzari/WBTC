@@ -1,6 +1,7 @@
 # WBTC
 <pre>
 WET BULB TEMPERATURE CALCULATOR
+http://www.github.com/svenazari
 
 Calculate wet-bulb temperature using air temperature and relative air humidity.
 This script is written in Python.
