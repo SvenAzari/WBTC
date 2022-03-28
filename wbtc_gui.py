@@ -2,6 +2,7 @@
 #You need to have Python3 and PySimpleGUI installed in order to run this script.
 #To run script, open CLI on your system and type python3 wbtc_gui.py
 #Made by Sven Azari
+#http://www.github.com/svenazari
 
 import math
 import PySimpleGUI as sg
