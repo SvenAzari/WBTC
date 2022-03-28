@@ -3,6 +3,7 @@
 # This script is written in Python.
 # You need to have Python3 installed on your computer in order to use this script.
 # Made by Sven Azari
+# http://www.github.com/svenazari
 #
 # INSTRUCTIONS:
 #   1.) TT - air temeperature [°C] - input without decimal point (e.g. 21.8 = 218)
