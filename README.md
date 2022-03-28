@@ -2,6 +2,7 @@
 <pre>
 WET BULB TEMPERATURE CALCULATOR
 
+Calculate wet-bulb temperature using air temperature and relative air humidity.
 This script is written in Python.
 You need to have Python3 installed on your computer in order to use this script.
 Made by Sven Azari
@@ -16,8 +17,6 @@ INSTRUCTIONS:
       with ice on bet-bulb termomether sensor
   5.) For exit just type "exit".
   6.) In case of wrong input, type "back".
-</pre>
-***
-Calculate wet-bulb temperature using air temperature and relative air humidity.
 ***
 Requirements: Python3, PySimpleGUI (for GUI version)
+</pre>
