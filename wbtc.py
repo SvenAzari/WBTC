@@ -45,8 +45,8 @@ def script ():
   print ("# (input without decimal point)          #")
   print ("# UU - relative humidity [%]             #")
   print ("# BBB - air pressure [hPa]               #")
-  print ("# (input without thousand digit or       #")
-  print ("#   decimal point                        #")
+  print ("# (input without thousand digit and      #")
+  print ("#   without decimal point                #")
   print ("#  - if unknown just leave it empty)     #")
   print ("#                                        #")
   print ("# For exit just type exit.               #")
@@ -56,22 +56,22 @@ def script ():
   print (" ")
   #input
   TT = input ("TT = ")
-  if (TT == "exit"):
+  if (TT == "exit" or TT == "EXIT"):
     clear ()
     sys.exit (0)
-  elif (TT == "back"):
+  elif (TT == "back" or TT == "BACK"):
     script ()
   UU = input ("UU = ")
-  if (UU == "exit"):
+  if (UU == "exit" or UU == "EXIT"):
     clear ()
     sys.exit (0)
-  elif (UU == "back"):
+  elif (UU == "back" or UU == "BACK"):
     script ()
   bbb = input ("BBB = ")
-  if (bbb == "exit"):
+  if (bbb == "exit" or bbb == "EXIT"):
     clear ()
     sys.exit (0)
-  elif (bbb == "back"):
+  elif (bbb == "back" or bbb == "BACK"):
     script ()
   if (bbb == ''):
     bbb = 10133
@@ -152,6 +152,9 @@ def script ():
     print ("#####")
     print (" ")
     print ("HT = W" + HTavp + " [I" + HTalp + "]")
+    print (" ")
+    print ("W - water")
+    print ("I - ice")
     print (" ")
     print ("#####")
     fuex ()
